@@ -29,8 +29,8 @@ Foram utilizados os dados de reanálise do ERA5 para os anos entre 2020 e 2024, 
 - **Rotacional do vento:** Calculado a partir dos gradientes espaciais das componentes u e v do vento.
 - **Tensão de cisalhamento do vento:** Usando fórmula quadrática baseada na densidade do ar e coeficiente de arrasto.
 - **Transporte de Ekman:** A partir da tensão de vento e parâmetros físicos (densidade da água, f).
-- **Transporte geostrófico:** Derivado das anomalias da altura da superfície do mar.
-- **Ferramentas:** Python (xarray, numpy, scipy, cartopy, cmocean), Jupyter Notebooks.
+- **Transporte geostrófico:** 
+- **Ferramentas:** Python (numpy)
 
   ## 3. Resultados Esperados
 - Mapas sazonais de:
